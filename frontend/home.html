@@ -1,58 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>FOODIES</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Dialogflow Messenger -->
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 </head>
 <body>
-	<div class="container">
-    <header>
+
+<header class="navbar">
+    <div class="nav-container">
+        <h1 class="brand">FOODIES</h1>
         <nav>
-            <a href="#home">HOME</a> |
-            <a href="#menu">MENU</a> |
-            <a href="#location">LOCATION</a> |
-            <a href="#aboutus">ABOUT US</a> |
-            <a href="#contactus">CONTACT US</a>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#location">Location</a>
+            <a href="#contactus">Contact</a>
         </nav>
-    </header>
-
-    <section id="home">
-		<img src="banner.jpg" >
-        <!-- Add images here -->
-    </section>
-
-    <section id="menu">
-        <h2>Our Menu</h2>
-        <div class="grid-container">
-        <img src="menu1.jpg" alt="Menu item 1">
-        <img src="menu2.jpg" alt="Menu item 2">
-        <img src="menu3.jpg" alt="Menu item 3">
     </div>
-    </section>
+</header>
 
-    <section id="location">
-        <h2>Location</h2>
-        <p>38 Patli Gali, Mumbai</p>
-        <!-- Add map widget here -->
-    </section>
+<section id="home" class="hero">
+    <img src="banner.jpg" alt="Restaurant Banner">
+    <div class="hero-text">
+        <h2>Delicious. Fast. Reliable.</h2>
+        <p>Experience authentic flavors delivered fresh.</p>
+    </div>
+</section>
 
-    <section id="contactus">
-        <h2>Contact Us</h2>
-        <p>Got questions? Want to place an order? Call us at +91791234567 or email us at info@atliqfastfood.com</p>
-    </section>
+<section id="menu" class="section">
+    <h2>Our Menu</h2>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <img src="biryani.jpg" alt="Biryani">
+            <span class="tag left">Biryani</span>
+            <span class="tag right">$9</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="cholebhature.jpg" alt="Chole Bhature">
+            <span class="tag left">Chole Bhature</span>
+            <span class="tag right">$7</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="masaladosa.jpg" alt="Masala Dosa">
+            <span class="tag left">Masala Dosa</span>
+            <span class="tag right">$6</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="mongolassi.jpg" alt="Mango Lassi">
+            <span class="tag left">Mango Lassi</span>
+            <span class="tag right">$5</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="pavbhaji.jpg" alt="Pav Bhaji">
+            <span class="tag left">Pav Bhaji</span>
+            <span class="tag right">$6</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="pizza.jpg" alt="Pizza">
+            <span class="tag left">Pizza</span>
+            <span class="tag right">$8</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="ravadosa.jpg" alt="Rava Dosa">
+            <span class="tag left">Rava Dosa</span>
+            <span class="tag right">$7</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="samosa.jpg" alt="Samosa">
+            <span class="tag left">Samosa</span>
+            <span class="tag right">$5</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="vadapav.jpg" alt="Vada Pav">
+            <span class="tag left">Vada Pav</span>
+            <span class="tag right">$4</span>
+        </div>
+
+    </div>
+</section>
 
 
+<section id="location" class="section light">
+    <h2>Our Location</h2>
+    <p>📍 38 Patli Gali, Mumbai</p>
+</section>
+
+<section id="contactus" class="section">
+    <h2>Contact Us</h2>
+    <p>📞 +91 9999999999</p>
+    <p>✉️ info@foodies.com</p>
+</section>
+
+<!-- Chatbot -->
 <df-messenger
   intent="WELCOME"
-  chat-title="Mira-Chatbot"
-  agent-id="90f36be3-0f35-457e-9f8b-9c40f2f34f18"
+  chat-title="Mira – Food Assistant"
+  agent-id="YOUR_DIALOGFLOW_AGENT_ID"
   language-code="en"
-  session-id="foodies-session-001"
-></df-messenger>
+  session-id="foodies-session-001">
+</df-messenger>
 
- 	</div>
 </body>
 </html>
-
-

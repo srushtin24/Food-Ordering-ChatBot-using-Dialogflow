@@ -95,36 +95,48 @@ def add_to_order(parameters: dict, session_id: str):
     })
 
 
+
 def remove_from_order(parameters: dict, session_id: str):
     if session_id not in inprogress_orders:
         return JSONResponse(content={
-            "fulfillmentText": "I'm having a trouble finding your order. Sorry! Can you place a new order please?"
+            "fulfillmentText": "I'm having trouble finding your order. Please place a new order."
         })
-    
-    food_items = parameters["food-items"]
+
+    food_items = parameters.get("food-items", [])
+    quantities = parameters.get("number", [])
+
     current_order = inprogress_orders[session_id]
 
-    removed_items = []
-    no_such_items = []
+    removed = []
+    not_found = []
 
-    for item in food_items:
+    if len(quantities) == 0:
+        quantities = [1] * len(food_items)
+
+    for item, qty in zip(food_items, quantities):
         if item not in current_order:
-            no_such_items.append(item)
+            not_found.append(item)
         else:
-            removed_items.append(item)
-            del current_order[item]
+            if current_order[item] > qty:
+                current_order[item] -= qty
+                removed.append(f"{int(qty)} {item}")
+            else:
+                removed.append(f"{int(current_order[item])} {item}")
+                del current_order[item]
 
-    if len(removed_items) > 0:
-        fulfillment_text = f'Removed {",".join(removed_items)} from your order!'
+    fulfillment_text = ""
 
-    if len(no_such_items) > 0:
-        fulfillment_text = f' Your current order does not have {",".join(no_such_items)}'
+    if removed:
+        fulfillment_text += f"Removed {', '.join(removed)} from your order. "
 
-    if len(current_order.keys()) == 0:
-        fulfillment_text += " Your order is empty!"
+    if not_found:
+        fulfillment_text += f"I couldn't find {', '.join(not_found)} in your order. "
+
+    if not current_order:
+        fulfillment_text += "Your order is now empty."
     else:
         order_str = generic_helper.get_str_from_food_dict(current_order)
-        fulfillment_text += f" Here is what is left in your order: {order_str}"
+        fulfillment_text += f"Here is what’s left in your order: {order_str}"
 
     return JSONResponse(content={
         "fulfillmentText": fulfillment_text
