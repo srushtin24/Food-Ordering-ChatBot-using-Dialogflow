@@ -21,16 +21,16 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 ### 🛠️ Tech Stack
 
 1. Frontend
-  - HTML
-  - CSS
-  - Dialogflow Messenger
+- HTML
+- CSS
+- Dialogflow Messenger
 
 2. Backend
-  - Python
-  - FastAPI (Webhook Server)
+- Python
+- FastAPI (Webhook Server)
 
 3. AI / NLP
-  - Dialogflow ES (Intents, Entities, Contexts)
+- Dialogflow ES (Intents, Entities, Contexts)
 
 4. Database
-  - MySQL
+- MySQL
