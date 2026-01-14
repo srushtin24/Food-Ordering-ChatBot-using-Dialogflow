@@ -63,7 +63,7 @@ MySQL Database<br><br>
 
 
 <p align="center">
-   <img src="/images/1.png" width="800" hspace="40" style="margin-bottom: 90px;">
+   <img src="/images/1.png" width="800" hspace="40" style="margin-bottom: 150px;">
    <img src="/images/2.png" width="800" hspace="40">
 </p>
 
