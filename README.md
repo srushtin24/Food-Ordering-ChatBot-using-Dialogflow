@@ -7,7 +7,7 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 
 *This project demonstrates strong concepts in backend development, stateful conversations, API integration, and database-driven business logic.* <br><br>
 
-### ✨ Key Features<br>
+✨ ***Key Features*** <br>
 
 🗣️ Natural language food ordering using Dialogflow<br>
 ➕ Add multiple food items with quantities<br>
@@ -18,7 +18,7 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 🗄️ Persistent storage using MySQL & stored procedures<br>
 🌐 Web-based chatbot UI using Dialogflow Messenger<br><br>
 
-### 🛠️ Tech Stack<br><br>
+🛠️ ***Tech Stack*** <br>
 
 1. Frontend
    - HTML
@@ -33,26 +33,26 @@ The chatbot allows users to place food orders conversationally, modify orders dy
    - MySQL<br><br>
 
 
-### 📸 Project Screenshots
+📸 ***Project Screenshots*** <br><br>
 
 
 <p align="center">
-   <img src="/images/1.png" width="800" hspace="40">  
+   <img src="/images/1.png" width="800" hspace="40"><br>
    <img src="/images/2.png" width="800" hspace="40">
 </p>
 
-New Order
+***New Order*** <br>
 
 <p align="center">
-   <img src="/images/3.png" width="800" hspace="40">  
-   <img src="/images/4.png" width="800" hspace="40">
-   <img src="/images/5.png" width="800" hspace="40">
-   <img src="/images/6.png" width="800" hspace="40">
-   <img src="/images/7.png" width="800" hspace="40">
-   <img src="/images/8.png" width="800" hspace="40">
+   <img src="/images/3.png" width="800" hspace="40"><br>
+   <img src="/images/4.png" width="800" hspace="40"><br>
+   <img src="/images/5.png" width="800" hspace="40"><br>
+   <img src="/images/6.png" width="800" hspace="40"><br>
+   <img src="/images/7.png" width="800" hspace="40"><br>
+   <img src="/images/8.png" width="800" hspace="40"><br>
 </p>
 
-Order Tracking
+***Order Tracking***<br>
 
 <p align="center">
    <img src="/images/9.png" width="800" hspace="40">
