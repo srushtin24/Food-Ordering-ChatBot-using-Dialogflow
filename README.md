@@ -1,11 +1,11 @@
 # Food Ordering ChatBot using Dialogflow
 
-***This project is an AI-powered Food Ordering Chatbot designed to simulate a real-world food ordering and tracking experience.
-The chatbot allows users to place food orders conversationally, modify orders dynamically, complete orders, and track order status — all through natural language interaction.***
+*This project is an AI-powered Food Ordering Chatbot designed to simulate a real-world food ordering and tracking experience.
+The chatbot allows users to place food orders conversationally, modify orders dynamically, complete orders, and track order status — all through natural language interaction.*
 
-***The system is built using Dialogflow ES for intent handling, FastAPI for backend webhook processing, and MySQL for persistent order storage.***
+*The system is built using Dialogflow ES for intent handling, FastAPI for backend webhook processing, and MySQL for persistent order storage.*
 
-***This project demonstrates strong concepts in backend development, stateful conversations, API integration, and database-driven business logic.***<br><br>
+*This project demonstrates strong concepts in backend development, stateful conversations, API integration, and database-driven business logic.* <br><br>
 
 ### ✨ Key Features<br>
 
@@ -21,19 +21,16 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 ### 🛠️ Tech Stack<br><br>
 
 1. Frontend
-- HTML
-- CSS
-- Dialogflow Messenger<br><br>
-
+   - HTML
+   - CSS
+   - Dialogflow Messenger<br><br>
 2. Backend
-- Python
-- FastAPI (Webhook Server)<br><br>
-
+   - Python
+   - FastAPI (Webhook Server)<br><br>
 3. AI / NLP
-- Dialogflow ES (Intents, Entities, Contexts)<br><br>
-
+   - Dialogflow ES (Intents, Entities, Contexts)<br><br>
 4. Database
-- MySQL<br><br>
+   - MySQL<br><br>
 
 
 ### 📸 Project Screenshots
