@@ -40,49 +40,25 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 
 
 <p align="center">
-   <img src="/images/1.png" width="200" hspace="40">  
+   <img src="/images/1.png" width="400" hspace="40">  
    <img src="/images/2.png" width="200" hspace="40">
 </p>
 
-Add items
+New Order
+
+<p align="center">
+   <img src="/images/3.png" width="200" hspace="40">  
+   <img src="/images/4.png" width="200" hspace="40">
+   <img src="/images/5.png" width="200" hspace="40">
+   <img src="/images/6.png" width="200" hspace="40">
+   <img src="/images/7.png" width="200" hspace="40">
+   <img src="/images/8.png" width="200" hspace="40">
+</p>
+
+Order Tracking
+
+<p align="center">
+   <img src="/images/9.png" width="200" hspace="40">
+</p>
 
 
-Remove items
-
-
-
-Order completion
-
-
-
-Order tracking
-
-
-
-
-
-
-
-
-
-🚀 ***How to Run Locally***
-
-1️⃣ Clone the Repository
-```
-git clone https://github.com/yourusername/Bangalore-Home-Price-Predictor.git
-cd Bangalore-Home-Price-Predictor
-```
-2️⃣ Install Dependencies
-```
-pip install -r requirements.txt
-```
-3️⃣ Run the Flask Server
-Navigate to the server folder and run:
-```
-python server.py
-```
-4️⃣ Open the Frontend
-Navigate to the client folder and open:
-```
-app.html
-```
