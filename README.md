@@ -34,3 +34,51 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 
 4. Database
 - MySQL<br><br>
+
+
+### 📸 Project Screenshots
+
+
+
+Add items
+
+
+Remove items
+
+
+
+Order completion
+
+
+
+Order tracking
+
+
+
+
+
+
+
+
+
+🚀 ***How to Run Locally***
+
+1️⃣ Clone the Repository
+```
+git clone https://github.com/yourusername/Bangalore-Home-Price-Predictor.git
+cd Bangalore-Home-Price-Predictor
+```
+2️⃣ Install Dependencies
+```
+pip install -r requirements.txt
+```
+3️⃣ Run the Flask Server
+Navigate to the server folder and run:
+```
+python server.py
+```
+4️⃣ Open the Frontend
+Navigate to the client folder and open:
+```
+app.html
+```
