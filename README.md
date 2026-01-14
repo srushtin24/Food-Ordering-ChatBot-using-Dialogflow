@@ -7,6 +7,15 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 
 *This project demonstrates strong concepts in backend development, stateful conversations, API integration, and database-driven business logic.* <br><br>
 
+
+🧩 ***Problem Statement*** <br>
+
+Traditional food ordering systems rely on rigid user interfaces and manual navigation. <br>
+This project explores how conversational AI can simplify the food ordering experience by allowing users 
+to place, modify, and track orders using natural language, while maintaining conversational state 
+and backend consistency.<br><br>
+
+
 ✨ ***Key Features*** <br>
 
 🗣️ Natural language food ordering using Dialogflow<br>
