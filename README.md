@@ -39,6 +39,10 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 ### 📸 Project Screenshots
 
 
+<p align="center">
+   <img src="/images/1.png" width="200" hspace="40">  
+   <img src="/images/2.png" width="200" hspace="40">
+</p>
 
 Add items
 
