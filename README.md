@@ -42,6 +42,23 @@ and backend consistency.<br><br>
    - MySQL<br><br>
 
 
+🧠 ***System Architecture*** <br>
+
+User interacts with the chatbot through a web interface powered by Dialogflow Messenger.  
+Dialogflow processes user input using NLU and triggers a webhook request to the FastAPI backend.  
+The backend handles business logic, manages conversational state, and interacts with a MySQL database 
+for order persistence and tracking.<br><br>
+
+User (Browser)<br>
+↓<br>
+Dialogflow Messenger<br>
+↓<br>
+Dialogflow ES (NLU, Intents, Contexts)<br>
+↓<br>
+FastAPI Webhook (Python)<br>
+↓<br>
+MySQL Database<br><br>
+
 📸 ***Project Screenshots*** <br><br>
 
 
