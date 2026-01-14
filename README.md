@@ -5,32 +5,32 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 
 ***The system is built using Dialogflow ES for intent handling, FastAPI for backend webhook processing, and MySQL for persistent order storage.***
 
-***This project demonstrates strong concepts in backend development, stateful conversations, API integration, and database-driven business logic.***
+***This project demonstrates strong concepts in backend development, stateful conversations, API integration, and database-driven business logic.***<br><br>
 
-### ✨ Key Features
+### ✨ Key Features<br>
 
-🗣️ Natural language food ordering using Dialogflow
-➕ Add multiple food items with quantities
-➖ Remove items partially (e.g., remove 1 biryani from 2 biryani)
-🔄 Maintain session-based in-progress orders
-📦 Generate unique order IDs on order completion
-📍 Track order status using order ID
-🗄️ Persistent storage using MySQL & stored procedures
-🌐 Web-based chatbot UI using Dialogflow Messenger
+🗣️ Natural language food ordering using Dialogflow<br>
+➕ Add multiple food items with quantities<br>
+➖ Remove items partially (e.g., remove 1 biryani from 2 biryani)<br>
+🔄 Maintain session-based in-progress orders<br>
+📦 Generate unique order IDs on order completion<br>
+📍 Track order status using order ID<br>
+🗄️ Persistent storage using MySQL & stored procedures<br>
+🌐 Web-based chatbot UI using Dialogflow Messenger<br><br>
 
-### 🛠️ Tech Stack
+### 🛠️ Tech Stack<br>
 
 1. Frontend
 - HTML
 - CSS
-- Dialogflow Messenger
+- Dialogflow Messenger<br>
 
 2. Backend
 - Python
-- FastAPI (Webhook Server)
+- FastAPI (Webhook Server)<br>
 
 3. AI / NLP
-- Dialogflow ES (Intents, Entities, Contexts)
+- Dialogflow ES (Intents, Entities, Contexts)<br>
 
 4. Database
-- MySQL
+- MySQL<br>
