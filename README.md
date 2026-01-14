@@ -18,19 +18,19 @@ The chatbot allows users to place food orders conversationally, modify orders dy
 🗄️ Persistent storage using MySQL & stored procedures<br>
 🌐 Web-based chatbot UI using Dialogflow Messenger<br><br>
 
-### 🛠️ Tech Stack<br>
+### 🛠️ Tech Stack<br><br>
 
 1. Frontend
 - HTML
 - CSS
-- Dialogflow Messenger<br>
+- Dialogflow Messenger<br><br>
 
 2. Backend
 - Python
-- FastAPI (Webhook Server)<br>
+- FastAPI (Webhook Server)<br><br>
 
 3. AI / NLP
-- Dialogflow ES (Intents, Entities, Contexts)<br>
+- Dialogflow ES (Intents, Entities, Contexts)<br><br>
 
 4. Database
-- MySQL<br>
+- MySQL<br><br>
